@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Navbar from "../../components/Navbar"; 
-import Footer from "../../components/Footer"; // Changed from duplicate Navbar import
+import Footer from "../../components/Footer"; 
 
 export default function ContactHeader() {
   const [formData, setFormData] = useState({
